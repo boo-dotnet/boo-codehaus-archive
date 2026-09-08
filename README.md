@@ -1057,3 +1057,272 @@ digits so they sort in numeric order.
 | [BOO&#8209;1076](issues/BOO-1076.md) | :white_check_mark: Fixed | BOO-1076: Generic methods of generic types not being recognized correctly. |
 | [BOO&#8209;1077](issues/BOO-1077.md) | :white_check_mark: Fixed | BOO-1077: New style generator macros |
 | [BOO&#8209;1078](issues/BOO-1078.md) | :arrows_counterclockwise: Reopened | BOO-1078: Cannot use enumerations as attribute parameters |
+| [BOO&#8209;1079](issues/BOO-1079.md) | :white_check_mark: Fixed | BOO-1079: Cannot subclass a generic type if generic type is declared second |
+| [BOO&#8209;1080](issues/BOO-1080.md) | :white_check_mark: Fixed | BOO-1080: Cannot access internal members of generic types. |
+| [BOO&#8209;1081](issues/BOO-1081.md) | :white_check_mark: Fixed | BOO-1081: Subclassing containing class causes compiler stack overflow |
+| [BOO&#8209;1082](issues/BOO-1082.md) | :white_check_mark: Fixed | BOO-1082: Abstract subclassing turns methods public |
+| [BOO&#8209;1083](issues/BOO-1083.md) | :white_check_mark: Fixed | BOO-1083: quasiquotes for interpretter |
+| [BOO&#8209;1084](issues/BOO-1084.md) | :white_check_mark: Fixed | BOO-1084: IQuackFu conflicts with indexers |
+| [BOO&#8209;1085](issues/BOO-1085.md) | :white_check_mark: Fixed | BOO-1085: Compilation error -- global var + recursion |
+| [BOO&#8209;1086](issues/BOO-1086.md) | :white_check_mark: Fixed | BOO-1086: Compilation error with generator function with exception handling |
+| [BOO&#8209;1087](issues/BOO-1087.md) | :white_check_mark: Fixed | BOO-1087: Compiler should warn when an implicit callable is used in a boolean context |
+| [BOO&#8209;1088](issues/BOO-1088.md) | :white_check_mark: Fixed | BOO-1088: Built-in deadlock detection helper (LOCK_TIMEOUT symbol) |
+| [BOO&#8209;1089](issues/BOO-1089.md) | :white_check_mark: Fixed | BOO-1089: Avoid unneeded field initialization |
+| [BOO&#8209;1090](issues/BOO-1090.md) | :white_check_mark: Fixed | BOO-1090: Allow specific types for getter/property AST attributes |
+| [BOO&#8209;1091](issues/BOO-1091.md) | :white_check_mark: Fixed | BOO-1091: Possibility to change default visibility settings |
+| [BOO&#8209;1092](issues/BOO-1092.md) | :no_entry_sign: Won't Fix | BOO-1092: Change default field visibility from protected to private |
+| [BOO&#8209;1093](issues/BOO-1093.md) | :large_blue_circle: Open | BOO-1093: Bad IL generated in generators using generic interface as argument |
+| [BOO&#8209;1094](issues/BOO-1094.md) | :white_check_mark: Fixed | BOO-1094: Property getter/setter visibility is not checked nor emitted separately. |
+| [BOO&#8209;1095](issues/BOO-1095.md) | :white_check_mark: Fixed | BOO-1095: Ambiguous reference when subclassing method with ref parameter of an internal type |
+| [BOO&#8209;1096](issues/BOO-1096.md) | :information_source: Not A Bug | BOO-1096: Stable branch r3070 fails to compile with mono stable branch checkout r118004 |
+| [BOO&#8209;1097](issues/BOO-1097.md) | :large_blue_circle: Open | BOO-1097: Type system entities FullName property is inconsistent |
+| [BOO&#8209;1098](issues/BOO-1098.md) | :large_blue_circle: Open | BOO-1098: parameter coercion problems with nullables and nonnullables |
+| [BOO&#8209;1099](issues/BOO-1099.md) | :large_blue_circle: Open | BOO-1099: Lexer but when multiline string should have an " quote at the end |
+| [BOO&#8209;1100](issues/BOO-1100.md) | :large_blue_circle: Open | BOO-1100: Support extension methods declared in an imported namespace without importing the type itself |
+| [BOO&#8209;1101](issues/BOO-1101.md) | :large_blue_circle: Open | BOO-1101: Allow constants to be declared in arbitrary scope |
+| [BOO&#8209;1102](issues/BOO-1102.md) | :white_check_mark: Fixed | BOO-1102: Type inference for closures |
+| [BOO&#8209;1103](issues/BOO-1103.md) | :information_source: Not A Bug | BOO-1103: Method overloading dose not work as expected when using Clr extension methods |
+| [BOO&#8209;1104](issues/BOO-1104.md) | :large_blue_circle: Open | BOO-1104: CompilerError does not serialize properly |
+| [BOO&#8209;1105](issues/BOO-1105.md) | :no_entry_sign: Won't Fix | BOO-1105: commenting interface function causes an error |
+| [BOO&#8209;1106](issues/BOO-1106.md) | :white_check_mark: Fixed | BOO-1106: Object pattern matching: move Boo.PatternMatching from boo-extensions to Boo.Lang.PatternMatching in the official boo distribution |
+| [BOO&#8209;1107](issues/BOO-1107.md) | :large_blue_circle: Open | BOO-1107: invalid global function call |
+| [BOO&#8209;1108](issues/BOO-1108.md) | :large_blue_circle: Open | BOO-1108: Compiler errors not correctly reported in WSA mode |
+| [BOO&#8209;1109](issues/BOO-1109.md) | :white_check_mark: Fixed | BOO-1109: Internal compiler error trying to print the expansion of callables |
+| [BOO&#8209;1110](issues/BOO-1110.md) | :white_check_mark: Fixed | BOO-1110: code pattern matching: method invocations with arguments |
+| [BOO&#8209;1111](issues/BOO-1111.md) | :white_check_mark: Fixed | BOO-1111: Allow reuse of local in "for in" loops. |
+| [BOO&#8209;1112](issues/BOO-1112.md) | :white_check_mark: Fixed | BOO-1112: Inefficient IL for unary negations (especially negative floating-point literals) |
+| [BOO&#8209;1113](issues/BOO-1113.md) | :white_check_mark: Fixed | BOO-1113: Ensure all exception handlers can be reached |
+| [BOO&#8209;1114](issues/BOO-1114.md) | :large_blue_circle: Open | BOO-1114: Modifiers can be declared multiple times without error |
+| [BOO&#8209;1115](issues/BOO-1115.md) | :white_check_mark: Fixed | BOO-1115: Strict mode |
+| [BOO&#8209;1116](issues/BOO-1116.md) | :white_check_mark: Fixed | BOO-1116: BCE0090 not fired when reducing accessibility of a derived method from 'internal' to 'private' |
+| [BOO&#8209;1117](issues/BOO-1117.md) | :white_check_mark: Fixed | BOO-1117: Allow compilation for Silverlight profile |
+| [BOO&#8209;1118](issues/BOO-1118.md) | :large_blue_circle: Open | BOO-1118: BooCop - style checker |
+| [BOO&#8209;1119](issues/BOO-1119.md) | :large_blue_circle: Open | BOO-1119: Type inference for closures when passed as arguments to overloaded methods |
+| [BOO&#8209;1120](issues/BOO-1120.md) | :white_check_mark: Fixed | BOO-1120: nestable macros (context sensitive macros) |
+| [BOO&#8209;1121](issues/BOO-1121.md) | :white_check_mark: Fixed | BOO-1121: pattern matching support for macro definitions |
+| [BOO&#8209;1122](issues/BOO-1122.md) | :white_check_mark: Fixed | BOO-1122: parser error on code literal for protected property |
+| [BOO&#8209;1123](issues/BOO-1123.md) | :white_check_mark: Fixed | BOO-1123: WARNING: Assignment/Comparison made to/with same expression. |
+| [BOO&#8209;1124](issues/BOO-1124.md) | :white_check_mark: Fixed | BOO-1124: yieldAll : allow multiple enumerable arguments |
+| [BOO&#8209;1125](issues/BOO-1125.md) | :white_check_mark: Fixed | BOO-1125: Warning suppression/promotion options |
+| [BOO&#8209;1126](issues/BOO-1126.md) | :construction: In Progress | BOO-1126: pragma: compiler directive macro |
+| [BOO&#8209;1127](issues/BOO-1127.md) | :white_check_mark: Fixed | BOO-1127: Invalid IL when a static final 'literal' field is assigned to in static constructor |
+| [BOO&#8209;1128](issues/BOO-1128.md) | :white_check_mark: Fixed | BOO-1128: macros should be able to contribute imports to the current module |
+| [BOO&#8209;1129](issues/BOO-1129.md) | :white_check_mark: Fixed | BOO-1129: WARNING: Likely typo in type member name 'X'. Did you mean 'X2'? |
+| [BOO&#8209;1130](issues/BOO-1130.md) | :white_check_mark: Fixed | BOO-1130: Cannot produce or consume long enum |
+| [BOO&#8209;1131](issues/BOO-1131.md) | :construction: In Progress | BOO-1131: macro accessibility |
+| [BOO&#8209;1132](issues/BOO-1132.md) | :white_check_mark: Fixed | BOO-1132: WARNING: Visible method\|property does not declare return\|argument type explicitely |
+| [BOO&#8209;1133](issues/BOO-1133.md) | :white_check_mark: Fixed | BOO-1133: WARNING: Variable 'X' has the same name as a field of base type 'T'. Did you mean to use the field ? |
+| [BOO&#8209;1134](issues/BOO-1134.md) | :large_blue_circle: Open | BOO-1134: scoped imports |
+| [BOO&#8209;1135](issues/BOO-1135.md) | :white_check_mark: Fixed | BOO-1135: Wrong op_Implicit behavior |
+| [BOO&#8209;1136](issues/BOO-1136.md) | :large_blue_circle: Open | BOO-1136: Allow type members to appear inside macro application bodies |
+| [BOO&#8209;1137](issues/BOO-1137.md) | :large_blue_circle: Open | BOO-1137: allow attributes and modifiers to be applied to macros anywhere in the module |
+| [BOO&#8209;1138](issues/BOO-1138.md) | :large_blue_circle: Open | BOO-1138: Type member macros in interfaces |
+| [BOO&#8209;1139](issues/BOO-1139.md) | :large_blue_circle: Open | BOO-1139: Cant invoke generic method with anonymous callable parameter type |
+| [BOO&#8209;1140](issues/BOO-1140.md) | :white_check_mark: Fixed | BOO-1140: Nested macros extensions |
+| [BOO&#8209;1141](issues/BOO-1141.md) | :large_blue_circle: Open | BOO-1141: String interpolation formatting does not work in booish |
+| [BOO&#8209;1142](issues/BOO-1142.md) | :construction: In Progress | BOO-1142: Treat System.Reflection.MethodInfo as callable |
+| [BOO&#8209;1143](issues/BOO-1143.md) | :white_check_mark: Fixed | BOO-1143: Ambiguous reference when inheriting from generic class with variable number of generic arguments |
+| [BOO&#8209;1144](issues/BOO-1144.md) | :white_check_mark: Fixed | BOO-1144: Defining an extension method without argument crashes compiler |
+| [BOO&#8209;1145](issues/BOO-1145.md) | :white_check_mark: Fixed | BOO-1145: Internal generic extension methods require the 'self' parameter at invocation |
+| [BOO&#8209;1146](issues/BOO-1146.md) | :white_check_mark: Fixed | BOO-1146: Macro named (and typed) arguments |
+| [BOO&#8209;1147](issues/BOO-1147.md) | :white_check_mark: Fixed | BOO-1147: Cannot inherit an external class with a generic argument whose constraint is to inherit that same class |
+| [BOO&#8209;1148](issues/BOO-1148.md) | :large_blue_circle: Open | BOO-1148: String interpolation formatting; add all the same features as python '%' formatting and .net string.format |
+| [BOO&#8209;1149](issues/BOO-1149.md) | :large_blue_circle: Open | BOO-1149: Problem with (nested?) generic classes |
+| [BOO&#8209;1150](issues/BOO-1150.md) | :white_check_mark: Fixed | BOO-1150: Dot prefix as implicit self (ie. allow OmittedExpression as MemberReferenceExpression target) |
+| [BOO&#8209;1151](issues/BOO-1151.md) | :white_check_mark: Fixed | BOO-1151: Boo calling TypeBuilder.MakeGenericType without initialized type parameters |
+| [BOO&#8209;1152](issues/BOO-1152.md) | :white_check_mark: Fixed | BOO-1152: non-nested enums always have internal scope |
+| [BOO&#8209;1153](issues/BOO-1153.md) | :large_blue_circle: Open | BOO-1153: boo requiring abstract class to implement interface property accessors |
+| [BOO&#8209;1154](issues/BOO-1154.md) | :white_check_mark: Fixed | BOO-1154: len() cannot be used with types implementing ICollection<T> but not non-generic ICollection. |
+| [BOO&#8209;1155](issues/BOO-1155.md) | :construction: In Progress | BOO-1155: Generic parameter covariance/contravariance support |
+| [BOO&#8209;1156](issues/BOO-1156.md) | :large_blue_circle: Open | BOO-1156: Macro overloads |
+| [BOO&#8209;1157](issues/BOO-1157.md) | :no_entry_sign: Won't Fix | BOO-1157: Pattern matching case coalescing |
+| [BOO&#8209;1158](issues/BOO-1158.md) | :large_blue_circle: Open | BOO-1158: 'case' without a body should be flagged as an error |
+| [BOO&#8209;1159](issues/BOO-1159.md) | :large_blue_circle: Open | BOO-1159: Overlay assemblies / Built-in static AOP |
+| [BOO&#8209;1160](issues/BOO-1160.md) | :white_check_mark: Fixed | BOO-1160: Invalid IL when returning a nullable T? in a method with T return type |
+| [BOO&#8209;1161](issues/BOO-1161.md) | :large_blue_circle: Open | BOO-1161: Access a parent macro named argument with $(parentMacro['argName']) |
+| [BOO&#8209;1162](issues/BOO-1162.md) | :white_check_mark: Fixed | BOO-1162: BCE0004 Ambiguous reference is not fired when using a null literal |
+| [BOO&#8209;1163](issues/BOO-1163.md) | :large_blue_circle: Open | BOO-1163: compiler-generated initialization flag interferes with some windows api calls |
+| [BOO&#8209;1164](issues/BOO-1164.md) | :large_blue_circle: Open | BOO-1164: Parse Explicit member interfaces for generic types |
+| [BOO&#8209;1165](issues/BOO-1165.md) | :white_check_mark: Fixed | BOO-1165: Callable cannot declare variable parameters |
+| [BOO&#8209;1166](issues/BOO-1166.md) | :large_blue_circle: Open | BOO-1166: Ambiguous reference with generic argument constraint when current type inherits a generic type |
+| [BOO&#8209;1167](issues/BOO-1167.md) | :large_blue_circle: Open | BOO-1167: BCE0149 on external method that has generic argument constraint referencing declaring type's external constructed generic argument |
+| [BOO&#8209;1168](issues/BOO-1168.md) | :white_check_mark: Fixed | BOO-1168: Types defined in the current assembly should be preferred when resolving base types |
+| [BOO&#8209;1169](issues/BOO-1169.md) | :white_check_mark: Fixed | BOO-1169: Internal macros should be preferred over external ones |
+| [BOO&#8209;1170](issues/BOO-1170.md) | :white_check_mark: Fixed | BOO-1170: for/or bug in generator |
+| [BOO&#8209;1171](issues/BOO-1171.md) | :white_check_mark: Fixed | BOO-1171: Implement a setter-only property of an external interface crashes compiler |
+| [BOO&#8209;1172](issues/BOO-1172.md) | :white_check_mark: Fixed | BOO-1172: Support new Boo compiler options in MSBuild task |
+| [BOO&#8209;1173](issues/BOO-1173.md) | :white_check_mark: Fixed | BOO-1173: booc should allow multiple assembly with the "gmcs" syntax "-r:ASSEMBLY1[,ASSEMBLY2]" |
+| [BOO&#8209;1174](issues/BOO-1174.md) | :white_check_mark: Fixed | BOO-1174: Accept 'is' / 'is not' operators for boolean tests |
+| [BOO&#8209;1175](issues/BOO-1175.md) | :large_blue_circle: Open | BOO-1175: Allow external nested macro extension within an already external nested macro |
+| [BOO&#8209;1176](issues/BOO-1176.md) | :white_check_mark: Fixed | BOO-1176: Shifting on an unsigned integer results in wrong value or overflow |
+| [BOO&#8209;1177](issues/BOO-1177.md) | :white_check_mark: Fixed | BOO-1177: [CompilerGlobalScope] on a class can result in conflicting constructor |
+| [BOO&#8209;1178](issues/BOO-1178.md) | :white_check_mark: Fixed | BOO-1178: return statement in a constructor issues internal compiler error |
+| [BOO&#8209;1179](issues/BOO-1179.md) | :white_check_mark: Fixed | BOO-1179: BCW0014 is issued when declaring a private entry-point method |
+| [BOO&#8209;1180](issues/BOO-1180.md) | :large_blue_circle: Open | BOO-1180: Delete key does not work in booish |
+| [BOO&#8209;1181](issues/BOO-1181.md) | :white_check_mark: Fixed | BOO-1181: Atttributes with exploding parameters cause internal compiler error |
+| [BOO&#8209;1182](issues/BOO-1182.md) | :large_blue_circle: Open | BOO-1182: Improve Ambiguous Reference Resolution |
+| [BOO&#8209;1183](issues/BOO-1183.md) | :white_check_mark: Fixed | BOO-1183: NullReferenceException bug in CompilerParameters.BooAssembly setter |
+| [BOO&#8209;1184](issues/BOO-1184.md) | :large_blue_circle: Open | BOO-1184: Use Meta methods as Extension Methods |
+| [BOO&#8209;1185](issues/BOO-1185.md) | :large_blue_circle: Open | BOO-1185: default.build doesn't allow changing install.prefix and install-linux target uses boo.pc which is created in boo-pkgconfig target, but doesn't depends on it |
+| [BOO&#8209;1186](issues/BOO-1186.md) | :white_check_mark: Fixed | BOO-1186: Compiler crash when checking default constructor constraint on a value-type generic parameter |
+| [BOO&#8209;1187](issues/BOO-1187.md) | :large_blue_circle: Open | BOO-1187: Nullable type casting does not work |
+| [BOO&#8209;1188](issues/BOO-1188.md) | :white_check_mark: Fixed | BOO-1188: Constant Folding |
+| [BOO&#8209;1189](issues/BOO-1189.md) | :arrows_counterclockwise: Reopened | BOO-1189: boo fails to compile if already installed |
+| [BOO&#8209;1190](issues/BOO-1190.md) | :large_blue_circle: Open | BOO-1190: extension methods on static clases compile but fail at runtime |
+| [BOO&#8209;1191](issues/BOO-1191.md) | :white_check_mark: Fixed | BOO-1191: booish crashes after /help, /globals, /load and /save |
+| [BOO&#8209;1192](issues/BOO-1192.md) | :large_blue_circle: Open | BOO-1192: invalid multiple assignment |
+| [BOO&#8209;1193](issues/BOO-1193.md) | :large_blue_circle: Open | BOO-1193: Exception shorthand like attribute shorthand |
+| [BOO&#8209;1194](issues/BOO-1194.md) | :white_check_mark: Fixed | BOO-1194: Any autocompletion on an array crashes Boo interpreter |
+| [BOO&#8209;1195](issues/BOO-1195.md) | :large_blue_circle: Open | BOO-1195: Struct requires to be public to use Predicates for List[] |
+| [BOO&#8209;1196](issues/BOO-1196.md) | :white_check_mark: Fixed | BOO-1196: Property Observable: true's event not accessible in strict mode |
+| [BOO&#8209;1197](issues/BOO-1197.md) | :white_check_mark: Fixed | BOO-1197: [strict mode] do not issue BCW0024 on non-visible public members |
+| [BOO&#8209;1198](issues/BOO-1198.md) | :large_blue_circle: Open | BOO-1198: C#-style syntax for automatic properties |
+| [BOO&#8209;1199](issues/BOO-1199.md) | :large_blue_circle: Open | BOO-1199: A wrist-friendly proposal: Make def a no-op |
+| [BOO&#8209;1200](issues/BOO-1200.md) | :large_blue_circle: Open | BOO-1200: Attribute declarations |
+| [BOO&#8209;1201](issues/BOO-1201.md) | :large_blue_circle: Open | BOO-1201: unlock keyword |
+| [BOO&#8209;1202](issues/BOO-1202.md) | :white_check_mark: Fixed | BOO-1202: Unsafe code support (pointer manipulation within `unsafe' block) |
+| [BOO&#8209;1203](issues/BOO-1203.md) | :white_check_mark: Fixed | BOO-1203: Generic array/matrix builtins |
+| [BOO&#8209;1204](issues/BOO-1204.md) | :large_blue_circle: Open | BOO-1204: final class fields can't be passed by reference in constructor |
+| [BOO&#8209;1205](issues/BOO-1205.md) | :link: Duplicate | BOO-1205: CompilerParameters has incorrect cast in BooAssembly property setter |
+| [BOO&#8209;1206](issues/BOO-1206.md) | :white_check_mark: Fixed | BOO-1206: calling method of generic(T) class with reference parameter T from another generic(T) class |
+| [BOO&#8209;1207](issues/BOO-1207.md) | :white_check_mark: Fixed | BOO-1207: Compiler crash when an explicit interface declaration is not a member of the interface |
+| [BOO&#8209;1208](issues/BOO-1208.md) | :large_blue_circle: Open | BOO-1208: generated constructor for A(v:4) like object creation |
+| [BOO&#8209;1209](issues/BOO-1209.md) | :large_blue_circle: Open | BOO-1209: unexpected warnings about unused methods of a generic class |
+| [BOO&#8209;1210](issues/BOO-1210.md) | :white_check_mark: Fixed | BOO-1210: order-dependent emitter error when a class member references an internal generic constructed type |
+| [BOO&#8209;1211](issues/BOO-1211.md) | :information_source: Not A Bug | BOO-1211: No type safety at all if LHS or RHS of expression is an interface |
+| [BOO&#8209;1212](issues/BOO-1212.md) | :white_check_mark: Fixed | BOO-1212: Accessibility of abstract stubs not preserved |
+| [BOO&#8209;1213](issues/BOO-1213.md) | :information_source: Not A Bug | BOO-1213: generics specialization doesn't work if used indirectly |
+| [BOO&#8209;1214](issues/BOO-1214.md) | :large_blue_circle: Open | BOO-1214: Simplified casting from generic parameter type |
+| [BOO&#8209;1215](issues/BOO-1215.md) | :white_check_mark: Fixed | BOO-1215: Boo Does not Work in Medium Trust |
+| [BOO&#8209;1216](issues/BOO-1216.md) | :white_check_mark: Fixed | BOO-1216: Compiler option to specify output assembly platform (-platform:ARCH) |
+| [BOO&#8209;1217](issues/BOO-1217.md) | :white_check_mark: Fixed | BOO-1217: Compiler crash when a method return same declaring generic type |
+| [BOO&#8209;1218](issues/BOO-1218.md) | :large_blue_circle: Open | BOO-1218: Attribute constructors accessibility is not checked |
+| [BOO&#8209;1219](issues/BOO-1219.md) | :large_blue_circle: Open | BOO-1219: Property extension resolution fails if one type is object |
+| [BOO&#8209;1220](issues/BOO-1220.md) | :arrows_counterclockwise: Reopened | BOO-1220: Conflicting stub is created when an external base type implements an internal interface deriving an external interface |
+| [BOO&#8209;1221](issues/BOO-1221.md) | :white_check_mark: Fixed | BOO-1221: Literal normalization and constant overflow check |
+| [BOO&#8209;1222](issues/BOO-1222.md) | :large_blue_circle: Open | BOO-1222: New NumericLiteralExpression as base type of IntegerLiteralExpression\|DoubleLiteralExpression |
+| [BOO&#8209;1223](issues/BOO-1223.md) | :white_check_mark: Fixed | BOO-1223: Compiler should issue error on non-public non-explicit interface member implementation |
+| [BOO&#8209;1224](issues/BOO-1224.md) | :large_blue_circle: Open | BOO-1224: Extending a generic whose where clause references an internal type has type loss |
+| [BOO&#8209;1225](issues/BOO-1225.md) | :large_blue_circle: Open | BOO-1225: Derived generic classes doesnt accept concrete types |
+| [BOO&#8209;1226](issues/BOO-1226.md) | :large_blue_circle: Open | BOO-1226: default(T) built-in |
+| [BOO&#8209;1227](issues/BOO-1227.md) | :large_blue_circle: Open | BOO-1227: Builtin macro macro should use fully qualified names |
+| [BOO&#8209;1228](issues/BOO-1228.md) | :white_check_mark: Fixed | BOO-1228: Add support for -unsafe and -platform:ARCH to MSBuild task |
+| [BOO&#8209;1229](issues/BOO-1229.md) | :large_blue_circle: Open | BOO-1229: Explicit interface implementation for events |
+| [BOO&#8209;1230](issues/BOO-1230.md) | :information_source: Not A Bug | BOO-1230: Internal generic constraints new/default not implemented |
+| [BOO&#8209;1231](issues/BOO-1231.md) | :question: Unknown | BOO-1231: *(no title captured)* |
+| [BOO&#8209;1232](issues/BOO-1232.md) | :question: Unknown | BOO-1232: *(no title captured)* |
+| [BOO&#8209;1234](issues/BOO-1234.md) | :white_check_mark: Fixed | BOO-1234: Node.Clone behavior wrt TypeSystem bindings |
+| [BOO&#8209;1235](issues/BOO-1235.md) | :white_check_mark: Fixed | BOO-1235: Generic parameter inference on varargs methods |
+| [BOO&#8209;1236](issues/BOO-1236.md) | :white_check_mark: Fixed | BOO-1236: Missing PatternMatching patterns, plus regex pattern |
+| [BOO&#8209;1237](issues/BOO-1237.md) | :white_check_mark: Fixed | BOO-1237: regex literal options |
+| [BOO&#8209;1238](issues/BOO-1238.md) | :large_blue_circle: Open | BOO-1238: Allow selective hiding on import statement |
+| [BOO&#8209;1239](issues/BOO-1239.md) | :large_blue_circle: Open | BOO-1239: Regex Literals should not take precedence over a division operation |
+| [BOO&#8209;1240](issues/BOO-1240.md) | :white_check_mark: Fixed | BOO-1240: Compiler falsely considers any member of the same name to fulfill an external interface. |
+| [BOO&#8209;1241](issues/BOO-1241.md) | :white_check_mark: Fixed | BOO-1241: Not all overloads of external implementations searched |
+| [BOO&#8209;1242](issues/BOO-1242.md) | :large_blue_circle: Open | BOO-1242: Check that at least one argument of an operator overload is the declaring type |
+| [BOO&#8209;1243](issues/BOO-1243.md) | :large_blue_circle: Open | BOO-1243: Invalid IL when invoking a static method not using any generic argument from declaring generic type |
+| [BOO&#8209;1244](issues/BOO-1244.md) | :white_check_mark: Fixed | BOO-1244: StackOverflowException when type contains itself as macro call |
+| [BOO&#8209;1245](issues/BOO-1245.md) | :white_check_mark: Fixed | BOO-1245: wrapper scripts contain @libdir@ placeholder |
+| [BOO&#8209;1246](issues/BOO-1246.md) | :large_blue_circle: Open | BOO-1246: Binary literals |
+| [BOO&#8209;1247](issues/BOO-1247.md) | :large_blue_circle: Open | BOO-1247: The class 'DerivedStruct' already has 'System.ValueType' as its base class. |
+| [BOO&#8209;1248](issues/BOO-1248.md) | :grey_question: Cannot Reproduce | BOO-1248: Most of the links on the Boo home page are dead |
+| [BOO&#8209;1249](issues/BOO-1249.md) | :white_check_mark: Fixed | BOO-1249: invalid properties for nullables |
+| [BOO&#8209;1250](issues/BOO-1250.md) | :white_check_mark: Fixed | BOO-1250: How to use AutoItX on Boo |
+| [BOO&#8209;1251](issues/BOO-1251.md) | :white_check_mark: Fixed | BOO-1251: Overflowing calculations with constants are compiled to invalid code |
+| [BOO&#8209;1252](issues/BOO-1252.md) | :white_check_mark: Fixed | BOO-1252: System.InvalidOperationException with void/bool comparison |
+| [BOO&#8209;1253](issues/BOO-1253.md) | :white_check_mark: Fixed | BOO-1253: System.InvalidOperationException with void function in hash literal |
+| [BOO&#8209;1254](issues/BOO-1254.md) | :white_check_mark: Fixed | BOO-1254: Boo compiler fails on certain file names |
+| [BOO&#8209;1255](issues/BOO-1255.md) | :white_check_mark: Fixed | BOO-1255: Boo compiler fails on empty files |
+| [BOO&#8209;1256](issues/BOO-1256.md) | :white_check_mark: Fixed | BOO-1256: Class not found after importing two similar namespaces |
+| [BOO&#8209;1257](issues/BOO-1257.md) | :information_source: Not A Bug | BOO-1257: Unexplained compiler error |
+| [BOO&#8209;1258](issues/BOO-1258.md) | :large_blue_circle: Open | BOO-1258: Booish2: The delete key does not work on the command line |
+| [BOO&#8209;1259](issues/BOO-1259.md) | :white_check_mark: Fixed | BOO-1259: inheritance generic class with abstract parameter causes error |
+| [BOO&#8209;1260](issues/BOO-1260.md) | :white_check_mark: Fixed | BOO-1260: Language change: remove 'continue' and 'break' special meaning from 'or' blocks |
+| [BOO&#8209;1261](issues/BOO-1261.md) | :white_check_mark: Fixed | BOO-1261: cross-namespace inheritance from an interface fails |
+| [BOO&#8209;1262](issues/BOO-1262.md) | :white_check_mark: Fixed | BOO-1262: The white space agnostic parser is not preserving file names |
+| [BOO&#8209;1263](issues/BOO-1263.md) | :large_blue_circle: Open | BOO-1263: Comparison operators should take implicit conversions into account |
+| [BOO&#8209;1264](issues/BOO-1264.md) | :large_blue_circle: Open | BOO-1264: failing to refer a generic class inside itself when argument is generic and has itself as it's generic parameter |
+| [BOO&#8209;1265](issues/BOO-1265.md) | :white_check_mark: Fixed | BOO-1265: Attempting to Backspace after using /help in Booish resutls in Unhandled Exception: System.ArgumentOutOfRangeException: Index was out of range. |
+| [BOO&#8209;1266](issues/BOO-1266.md) | :white_check_mark: Fixed | BOO-1266: Parser fails on literal -9223372036854775808L (long.MinValue) |
+| [BOO&#8209;1267](issues/BOO-1267.md) | :large_blue_circle: Open | BOO-1267: Support generic method calls on ducks |
+| [BOO&#8209;1268](issues/BOO-1268.md) | :large_blue_circle: Open | BOO-1268: Interfaces cannot hide inherited members |
+| [BOO&#8209;1269](issues/BOO-1269.md) | :link: Duplicate | BOO-1269: Cannot implement generic explicit interface methods |
+| [BOO&#8209;1270](issues/BOO-1270.md) | :large_blue_circle: Open | BOO-1270: Import from does not work with specific paths (folders starting with '.') |
+| [BOO&#8209;1271](issues/BOO-1271.md) | :large_blue_circle: Open | BOO-1271: Boo hides internal variables under generators using upper/global scope values |
+| [BOO&#8209;1272](issues/BOO-1272.md) | :large_blue_circle: Open | BOO-1272: Unsigned integers not working |
+| [BOO&#8209;1273](issues/BOO-1273.md) | :information_source: Not A Bug | BOO-1273: incompatibility with SharpDevelop 3.1.1 |
+| [BOO&#8209;1274](issues/BOO-1274.md) | :large_blue_circle: Open | BOO-1274: booish: member of imported name space not recognized |
+| [BOO&#8209;1275](issues/BOO-1275.md) | :large_blue_circle: Open | BOO-1275: check for misspelled variable names |
+| [BOO&#8209;1276](issues/BOO-1276.md) | :large_blue_circle: Open | BOO-1276: string interpolation for strings with % operator |
+| [BOO&#8209;1277](issues/BOO-1277.md) | :large_blue_circle: Open | BOO-1277: Immutable (pure) methods |
+| [BOO&#8209;1278](issues/BOO-1278.md) | :large_blue_circle: Open | BOO-1278: .NET 4.0 DynamicObject support |
+| [BOO&#8209;1279](issues/BOO-1279.md) | :large_blue_circle: Open | BOO-1279: Cannot resolve members well in depth after MacroExpansion |
+| [BOO&#8209;1280](issues/BOO-1280.md) | :large_blue_circle: Open | BOO-1280: Overloaded inplace operators (+=, -=, *=, /=, ++, --) |
+| [BOO&#8209;1281](issues/BOO-1281.md) | :white_check_mark: Fixed | BOO-1281: type definition (type)* causes error |
+| [BOO&#8209;1282](issues/BOO-1282.md) | :white_check_mark: Fixed | BOO-1282: compilation error: The name 'Boo.Lang.Extensions.MacroMacro.CustomBlockStatement' does not denote a valid type ('not found'). |
+| [BOO&#8209;1283](issues/BOO-1283.md) | :white_check_mark: Fixed | BOO-1283: compiler generates unverifiable code for "for a as SubType in superTypeArray" construct |
+| [BOO&#8209;1284](issues/BOO-1284.md) | :large_blue_circle: Open | BOO-1284: Generic type ISA in closures produces incorrect binary format |
+| [BOO&#8209;1285](issues/BOO-1285.md) | :white_check_mark: Fixed | BOO-1285: Allow 'get' and 'set' to be used as method names |
+| [BOO&#8209;1286](issues/BOO-1286.md) | :large_blue_circle: Open | BOO-1286: Internal Compile Error with enumerators |
+| [BOO&#8209;1287](issues/BOO-1287.md) | :white_check_mark: Fixed | BOO-1287: 'public static final Field = null' causes internal compiler error |
+| [BOO&#8209;1288](issues/BOO-1288.md) | :white_check_mark: Fixed | BOO-1288: local passed to closure causes BCE0055 if that code is unreachable |
+| [BOO&#8209;1289](issues/BOO-1289.md) | :large_blue_circle: Open | BOO-1289: delay & hang on the specific code using generics |
+| [BOO&#8209;1290](issues/BOO-1290.md) | :white_check_mark: Fixed | BOO-1290: compile time assertion on a function call inside generic |
+| [BOO&#8209;1291](issues/BOO-1291.md) | :large_blue_circle: Open | BOO-1291: Add "White Space Agnostic" checkbox to Properties page in SharpDevelop |
+| [BOO&#8209;1292](issues/BOO-1292.md) | :large_blue_circle: Open | BOO-1292: The "end" keyword does not get syntax hilighting in #develop |
+| [BOO&#8209;1293](issues/BOO-1293.md) | :no_entry_sign: Won't Fix | BOO-1293: compilation error on applying AST method attribute with a variable number of arguments (Mono) |
+| [BOO&#8209;1294](issues/BOO-1294.md) | :arrows_counterclockwise: Reopened | BOO-1294: interface implementation by inheritance doesn't compile (windows only) |
+| [BOO&#8209;1295](issues/BOO-1295.md) | :large_blue_circle: Open | BOO-1295: missing warning on an empty return statement |
+| [BOO&#8209;1296](issues/BOO-1296.md) | :large_blue_circle: Open | BOO-1296: impossible to write expression after : at the line where class method declared |
+| [BOO&#8209;1297](issues/BOO-1297.md) | :white_check_mark: Fixed | BOO-1297: Internal compiler error when referencing negative enum value |
+| [BOO&#8209;1298](issues/BOO-1298.md) | :white_check_mark: Fixed | BOO-1298: stricter type checking for array types |
+| [BOO&#8209;1299](issues/BOO-1299.md) | :white_check_mark: Fixed | BOO-1299: search for explicit conversion operators by default (disabled in strict mode) |
+| [BOO&#8209;1300](issues/BOO-1300.md) | :large_blue_circle: Open | BOO-1300: Automatically make a constructor() in global scope static |
+| [BOO&#8209;1301](issues/BOO-1301.md) | :white_check_mark: Fixed | BOO-1301: Compiler fails to handle nullable types inside generators |
+| [BOO&#8209;1302](issues/BOO-1302.md) | :white_check_mark: Fixed | BOO-1302: simple identifier interpolation: "Hello, $name!" |
+| [BOO&#8209;1303](issues/BOO-1303.md) | :white_check_mark: Fixed | BOO-1303: Use () instead of {} for expression interpolation instead ("2+2: $(2 + 2)" instead of "2+2: ${2 + 2}") |
+| [BOO&#8209;1304](issues/BOO-1304.md) | :white_check_mark: Fixed | BOO-1304: ifdef macro for conditional compilation |
+| [BOO&#8209;1305](issues/BOO-1305.md) | :large_blue_circle: Open | BOO-1305: Multiple body statement in macro causes error |
+| [BOO&#8209;1306](issues/BOO-1306.md) | :no_entry_sign: Won't Fix | BOO-1306: Internal compiler error: Failed to create XXX type.. (BCE0055) |
+| [BOO&#8209;1307](issues/BOO-1307.md) | :white_check_mark: Fixed | BOO-1307: Internal error on the static class member of a struct |
+| [BOO&#8209;1308](issues/BOO-1308.md) | :white_check_mark: Fixed | BOO-1308: internal compiler error on the external type access inside a closure inside a class constructor |
+| [BOO&#8209;1309](issues/BOO-1309.md) | :white_check_mark: Fixed | BOO-1309: collection initializers |
+| [BOO&#8209;1310](issues/BOO-1310.md) | :large_blue_circle: Open | BOO-1310: strict mode: don't create interface implementation stubs |
+| [BOO&#8209;1311](issues/BOO-1311.md) | :white_check_mark: Fixed | BOO-1311: booc can't handle spaces in -lib argument |
+| [BOO&#8209;1312](issues/BOO-1312.md) | :large_blue_circle: Open | BOO-1312: BadImage and MethodAccess Exceptions when compiling Boo on .NET 4.0 |
+| [BOO&#8209;1313](issues/BOO-1313.md) | :white_check_mark: Fixed | BOO-1313: Boo incorrectly handles overloaded extensions |
+| [BOO&#8209;1314](issues/BOO-1314.md) | :white_check_mark: Fixed | BOO-1314: CodeDom output for enums |
+| [BOO&#8209;1315](issues/BOO-1315.md) | :large_blue_circle: Open | BOO-1315: improved default.build file |
+| [BOO&#8209;1316](issues/BOO-1316.md) | :large_blue_circle: Open | BOO-1316: Changes in .NET 4 security model break Boo |
+| [BOO&#8209;1317](issues/BOO-1317.md) | :large_blue_circle: Open | BOO-1317: Integration of IQuackFu and generic extensions (e.g. Linq) |
+| [BOO&#8209;1318](issues/BOO-1318.md) | :large_blue_circle: Open | BOO-1318: Strongly-typed dictionary/hashtable |
+| [BOO&#8209;1319](issues/BOO-1319.md) | :large_blue_circle: Open | BOO-1319: print macro no longer supports dangling comma to suppress newline |
+| [BOO&#8209;1320](issues/BOO-1320.md) | :large_blue_circle: Open | BOO-1320: Operator Comparison on Strings |
+| [BOO&#8209;1321](issues/BOO-1321.md) | :large_blue_circle: Open | BOO-1321: Language feature not implemented: referencing generic parameter of outer type |
+| [BOO&#8209;1322](issues/BOO-1322.md) | :large_blue_circle: Open | BOO-1322: Generic method signature matching fails in the presence of generic callable parameters |
+| [BOO&#8209;1323](issues/BOO-1323.md) | :large_blue_circle: Open | BOO-1323: Cannot register for events with duck typing |
+| [BOO&#8209;1324](issues/BOO-1324.md) | :large_blue_circle: Open | BOO-1324: Tests are failing in Boo.OMeta.Parser.Tests |
+| [BOO&#8209;1325](issues/BOO-1325.md) | :large_blue_circle: Open | BOO-1325: invalid program tracing |
+| [BOO&#8209;1326](issues/BOO-1326.md) | :large_blue_circle: Open | BOO-1326: invalid value in debug information |
+| [BOO&#8209;1327](issues/BOO-1327.md) | :large_blue_circle: Open | BOO-1327: invalid tracing and ghostly execution |
+| [BOO&#8209;1328](issues/BOO-1328.md) | :large_blue_circle: Open | BOO-1328: Compiler can't diff�rentiate ref int from ref (int) in polymorphism situation |
+| [BOO&#8209;1329](issues/BOO-1329.md) | :large_blue_circle: Open | BOO-1329: Extension property setter incorrectly claims that it cannot be used without parameters |
+| [BOO&#8209;1330](issues/BOO-1330.md) | :large_blue_circle: Open | BOO-1330: booish doesn't support passing global variables by reference |
+| [BOO&#8209;1331](issues/BOO-1331.md) | :large_blue_circle: Open | BOO-1331: Generator expression as method argument causes InvalidCastException |
+| [BOO&#8209;1332](issues/BOO-1332.md) | :large_blue_circle: Open | BOO-1332: COMPILATION ERROR: Cannot define valid generic parameters for method if one of parameter is a generic delegate |
+| [BOO&#8209;1333](issues/BOO-1333.md) | :large_blue_circle: Open | BOO-1333: New style of interpolations is well feature but have some overheads, want to have normal core-bound solution |
+| [BOO&#8209;1334](issues/BOO-1334.md) | :large_blue_circle: Open | BOO-1334: Mixing WSA and non-WSA parsing in single CompileUnit |
+| [BOO&#8209;1335](issues/BOO-1335.md) | :large_blue_circle: Open | BOO-1335: Certain TimeSpan literals create incorrect results |
+| [BOO&#8209;1336](issues/BOO-1336.md) | :large_blue_circle: Open | BOO-1336: Generics not reported in casting error |
+| [BOO&#8209;1337](issues/BOO-1337.md) | :large_blue_circle: Open | BOO-1337: \x## escaping for ASCII values |
+| [BOO&#8209;1338](issues/BOO-1338.md) | :large_blue_circle: Open | BOO-1338: IQuackFu cache does not distinguish properly between set/get/invoke |
+| [BOO&#8209;1339](issues/BOO-1339.md) | :large_blue_circle: Open | BOO-1339: Generic constraint not correctly applied when type is declared on a field |
+| [BOO&#8209;1340](issues/BOO-1340.md) | :large_blue_circle: Open | BOO-1340: Invoking a closure on a method inside a generic type causes Bad IL and BadImageFormatException |
+| [BOO&#8209;1341](issues/BOO-1341.md) | :large_blue_circle: Open | BOO-1341: Inconsistent accessibility of function return type |
+| [BOO&#8209;1342](issues/BOO-1342.md) | :white_check_mark: Fixed | BOO-1342: AmbiguousMatchException on overloaded indexer setter |
+| [BOO&#8209;1343](issues/BOO-1343.md) | :large_blue_circle: Open | BOO-1343: Not a bug exactly, but BooPrimer.pdf needs correcting |
+| [BOO&#8209;1344](issues/BOO-1344.md) | :large_blue_circle: Open | BOO-1344: website's tutorials don't show code blocks |
+| [BOO&#8209;1345](issues/BOO-1345.md) | :link: Duplicate | BOO-1345: The wiki page examples are all gone! |
+| [BOO&#8209;1346](issues/BOO-1346.md) | :large_blue_circle: Open | BOO-1346: Building boo-0.9.4.9 fails with:Bu [exec] System.IO.FileNotFoundException: Could not find file "/usr/src/boo-0.9.4.9/src/Boo.Lang/Boo.Lang.csproj" |
+| [BOO&#8209;1347](issues/BOO-1347.md) | :large_blue_circle: Open | BOO-1347: right shift by 32 |
+| [BOO&#8209;1348](issues/BOO-1348.md) | :large_blue_circle: Open | BOO-1348: Tile caching crash |
